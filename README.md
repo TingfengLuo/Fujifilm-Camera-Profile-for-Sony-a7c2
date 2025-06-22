@@ -2,13 +2,13 @@
 
 This repository provides a set of **Fujifilm-style film simulations** as `.dcp` Creative Profiles, adapted for use on **Sony A7C II** RAW files. These profiles replicate popular Fuji film looks—**Provia, Velvia, Astia, Classic Chrome, Pro Neg Std, Pro Neg Hi, Eterna**—by injecting their color rendering style while preserving your Sony camera’s native color accuracy.
 
+*Note: This only works on RAW files.*
+
 These profiles:
 - Apply Fujifilm's LookTable and ToneCurve on top of your Sony RAWs
 - Preserve Sony’s native sensor matrices for correct color science
 - Show up in **Adobe Camera Raw / Lightroom Classic** as **Creative profiles**
-
-
-> ✅ No EXIF spoofing, no sensor mismatch.  
+- No EXIF spoofing, no sensor mismatch.  
 
 ---
 
@@ -24,7 +24,7 @@ These profiles:
 | `Fuji_ProNegHi_Sony.dcp`       | Pro Neg Hi     | Higher contrast portrait look |
 | `Fuji_Eterna_Sony.dcp`         | Eterna         | Flat cinematic tone curve |
 
-*Note: Those profiles are created by following the procedures in [abpy/FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles) repo.*
+*Note: Those profiles are created by following the procedures in [abpy/FujifilmCameraProfiles](https://github.com/abpy/FujifilmCameraProfiles).*
 
 ---
 
@@ -45,11 +45,15 @@ git clone https://github.com/<your-username>/sony-fuji-creative-profiles.git
 Camera Raw only reads the profile folders at launch, so close every Adobe app that uses ACR, then open one again.
 
 ### 4. Apply the profiles when editing a Sony A7C II RAW
-    1. Open an A7C II .ARW file.
-    2. Click the browse profile icon:
-        ![image]()
-
-    3. Expand Profiles
-        ![image]()
-    4. Select any of the Fuji profiles to apply
-
+```
+1. Open an A7C II .ARW file.
+2. Click the browse profile icon:
+```
+![image](images/browse.png)
+```
+4. Expand Profiles:
+```
+![image](images/profile.png)
+```
+5. Select any of the Fuji profiles to apply
+```
