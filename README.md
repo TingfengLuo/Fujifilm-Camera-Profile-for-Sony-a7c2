@@ -1,0 +1,1 @@
+# Fujifilm-Camera-Profile-for-Sony-a7c2
