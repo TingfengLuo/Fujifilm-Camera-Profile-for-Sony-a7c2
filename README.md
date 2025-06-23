@@ -32,7 +32,7 @@ These profiles:
 
 ### 1. Download or Clone
 ```bash
-git clone https://github.com/<your-username>/sony-fuji-creative-profiles.git
+git clone https://github.com/TingfengLuo/sony-fuji-creative-profiles.git
 ```
 ### 2. Copy .dcp files to the correct profile folder
 
